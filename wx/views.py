@@ -8,6 +8,7 @@ from django.core.cache import cache
 APPID = "wx2e4b3f5d864ec373"
 SECRET = "34420c2496cbb60d75e02e1ef1bb8183"
 SEX = {1:u'男', 2:u'女'}
+LANGUAGE = {'zh_CN': u'汉语'}
 
 
 def index(request):
@@ -32,7 +33,7 @@ def index(request):
             'openid': paramss['openid'],
             'nickname': paramss['nickname'],
             'sex': SEX[paramss['sex']],
-            'language': paramss['language'],
+            'language': LANGUAGE[paramss['language']],
             'city': paramss['city'],
             'province': paramss['province'],
             'country': paramss['country'],
