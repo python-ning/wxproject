@@ -1,0 +1,172 @@
+*** Starting uWSGI 1.0.3-debian (64bit) on [Wed Jul 20 13:43:01 2016] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /root/wxproject
+writing pidfile to /root/wxproject/log/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+allocated 9760 bytes (9 KB) for 10 cores per worker.
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 4
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 30784)
+spawned uWSGI worker 1 (pid: 30785, cores: 10)
+spawned uWSGI worker 2 (pid: 30786, cores: 10)
+spawned uWSGI worker 3 (pid: 30796, cores: 10)
+spawned uWSGI worker 4 (pid: 30804, cores: 10)
+*** Stats server enabled on /tmp/uwsgi_stats_gateway fd: 16 ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 30785)...
+Gracefully killing worker 2 (pid: 30786)...
+Gracefully killing worker 4 (pid: 30804)...
+Gracefully killing worker 3 (pid: 30796)...
+binary reloading uWSGI...
+chdir() to /root/wxproject
+closing all non-uwsgi socket fds > 2 (_SC_OPEN_MAX = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from /root/wxproject/./uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (64bit) on [Wed Jul 20 13:43:42 2016] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /root/wxproject
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+allocated 9760 bytes (9 KB) for 10 cores per worker.
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 4
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30784)
+spawned uWSGI worker 1 (pid: 30836, cores: 10)
+spawned uWSGI worker 2 (pid: 30837, cores: 10)
+spawned uWSGI worker 3 (pid: 30844, cores: 10)
+spawned uWSGI worker 4 (pid: 30848, cores: 10)
+*** Stats server enabled on /tmp/uwsgi_stats_gateway fd: 15 ***
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 30836)...
+Gracefully killing worker 2 (pid: 30837)...
+Gracefully killing worker 3 (pid: 30844)...
+Gracefully killing worker 4 (pid: 30848)...
+binary reloading uWSGI...
+chdir() to /root/wxproject
+closing all non-uwsgi socket fds > 2 (_SC_OPEN_MAX = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from /root/wxproject/./uwsgi.ini
+*** Starting uWSGI 1.0.3-debian (64bit) on [Wed Jul 20 13:49:20 2016] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /root/wxproject
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+allocated 9760 bytes (9 KB) for 10 cores per worker.
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 4
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30784)
+spawned uWSGI worker 1 (pid: 31992, cores: 10)
+spawned uWSGI worker 2 (pid: 31993, cores: 10)
+spawned uWSGI worker 3 (pid: 32003, cores: 10)
+spawned uWSGI worker 4 (pid: 32008, cores: 10)
+*** Stats server enabled on /tmp/uwsgi_stats_gateway fd: 15 ***
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+*** Starting uWSGI 2.0.13.1 (64bit) on [Wed Jul 20 14:05:58 2016] ***
+compiled with version: 4.8.2 on 20 July 2016 14:01:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: i-lcwurvdh
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /root/wxproject
+writing pidfile to /root/wxproject/log/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/wxproject
+your processes number limit is 15846
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x1a1e720
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 827120 bytes (807 KB) for 40 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a1e720 pid: 1944 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1944)
+spawned uWSGI worker 1 (pid: 1947, cores: 10)
+spawned uWSGI worker 2 (pid: 1948, cores: 10)
+spawned uWSGI worker 3 (pid: 1949, cores: 10)
+spawned uWSGI worker 4 (pid: 1950, cores: 10)
+*** Stats server enabled on /tmp/uwsgi_stats_gateway fd: 15 ***
+<QueryDict: {}>
+{address space usage: 766976000 bytes/731MB} {rss usage: 28581888 bytes/27MB} [pid: 1949|app: 0|req: 1/1] 203.90.245.86 () {40 vars in 700 bytes} [Wed Jul 20 06:06:12 2016] GET / => generated 55748 bytes in 73 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 3)
+{address space usage: 766976000 bytes/731MB} {rss usage: 28635136 bytes/27MB} [pid: 1949|app: 0|req: 2/2] 203.90.245.86 () {42 vars in 671 bytes} [Wed Jul 20 06:06:12 2016] GET /favicon.ico => generated 2050 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+<QueryDict: {u'state': [u'waplogin'], u'code': [u'001gWLc825Y2SE02ted82PpHc82gWLcm']}>
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+
+{u'access_token': u'tsooSxbylUU0O-53fPl-cCBR7pLUH8dG5L1FGKTTN9ANuVpAeCHgoH1cZYL-OmHEvvhMe8navpBUuoWp7Hkl6mSYbo5D17dkqhICKYc8UmA', u'openid': u'oCQRNv0kfxlfshUn6jG3zBKTKgzU', u'expires_in': 7200, u'refresh_token': u'VCyUCb-D54-TYAV63d1hqUJMSz1CuwcV_Ib5sJB0vSsDsbdEx1UN4cq8s7e0sel3eGhVKbNWmpGEQ7o1ydD0ul3QoiESrwLLT8mzieJAmto', u'scope': u'snsapi_userinfo'}
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+
+{address space usage: 772501504 bytes/736MB} {rss usage: 27987968 bytes/26MB} [pid: 1947|app: 0|req: 1/3] 106.2.0.253 () {36 vars in 732 bytes} [Wed Jul 20 06:06:21 2016] GET /?code=001gWLc825Y2SE02ted82PpHc82gWLcm&state=waplogin => generated 4369 bytes in 378 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+<QueryDict: {u'state': [u'waplogin'], u'code': [u'001gWLc825Y2SE02ted82PpHc82gWLcm'], u'nsukey': [u'dZWrplNtHTYVmbmYW02z+0n3ilm2PEYW7UPW4QL+EMwQlqebKSX7+gjf1hReZBFOkyJFw9v+seil1tq1qYe+dA==']}>
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+
+{u'errcode': 40029, u'errmsg': u'invalid code, hints: [ req_id: 5xrI30783ns82 ]'}
+{address space usage: 771567616 bytes/735MB} {rss usage: 30920704 bytes/29MB} [pid: 1948|app: 0|req: 1/4] 101.226.125.109 () {42 vars in 965 bytes} [Wed Jul 20 06:06:23 2016] GET /?code=001gWLc825Y2SE02ted82PpHc82gWLcm&state=waplogin&nsukey=dZWrplNtHTYVmbmYW02z%2B0n3ilm2PEYW7UPW4QL%2BEMwQlqebKSX7%2Bgjf1hReZBFOkyJFw9v%2Bseil1tq1qYe%2BdA%3D%3D => generated 55528 bytes in 223 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 2)
+<QueryDict: {u'state': [u'waplogin'], u'code': [u'001gWLc825Y2SE02ted82PpHc82gWLcm'], u'nsukey': [u'dZWrplNtHTYVmbmYW02z+0n3ilm2PEYW7UPW4QL+EMwQlqebKSX7+gjf1hReZBFOkyJFw9v+seil1tq1qYe+dA==']}>
+<QueryDict: {u'state': [u'waplogin'], u'code': [u'001gWLc825Y2SE02ted82PpHc82gWLcm'], u'nsukey': [u'dZWrplNtHTYVmbmYW02z+0n3ilm2PEYW7UPW4QL+EMwQlqebKSX7+gjf1hReZBFOkyJFw9v+seil1tq1qYe+dA==']}>
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+
+{u'errcode': 40029, u'errmsg': u'invalid code, hints: [ req_id: 9JaWFA0783ns84 ]'}
+{address space usage: 771567616 bytes/735MB} {rss usage: 31563776 bytes/30MB} [pid: 1949|app: 0|req: 3/5] 106.2.0.253 () {38 vars in 1634 bytes} [Wed Jul 20 06:06:23 2016] GET /?code=001gWLc825Y2SE02ted82PpHc82gWLcm&state=waplogin&nsukey=dZWrplNtHTYVmbmYW02z%2B0n3ilm2PEYW7UPW4QL%2BEMwQlqebKSX7%2Bgjf1hReZBFOkyJFw9v%2Bseil1tq1qYe%2BdA%3D%3D => generated 57324 bytes in 219 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 2)
+{u'errcode': 40029, u'errmsg': u'invalid code, hints: [ req_id: ZlUrea0783ns86 ]'}
+{address space usage: 773287936 bytes/737MB} {rss usage: 29995008 bytes/28MB} [pid: 1947|app: 0|req: 2/6] 101.226.125.117 () {42 vars in 965 bytes} [Wed Jul 20 06:06:23 2016] GET /?code=001gWLc825Y2SE02ted82PpHc82gWLcm&state=waplogin&nsukey=dZWrplNtHTYVmbmYW02z%2B0n3ilm2PEYW7UPW4QL%2BEMwQlqebKSX7%2Bgjf1hReZBFOkyJFw9v%2Bseil1tq1qYe%2BdA%3D%3D => generated 55529 bytes in 347 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 3)
