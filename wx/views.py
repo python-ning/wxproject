@@ -1,9 +1,9 @@
 # encoding=utf-8
 from django.shortcuts import render, HttpResponse
-from models import WechatUserInfo
+from django.core.cache import cache
 import requests
 import json
-from django.core.cache import cache
+
 
 APPID = "wx2e4b3f5d864ec373"
 SECRET = "34420c2496cbb60d75e02e1ef1bb8183"
@@ -12,7 +12,7 @@ LANGUAGE = {'zh_CN': u'汉语'}
 
 
 def index(request):
-    code = request.GET['code']
+    code = request.GET.get('code', None)
     if cache.get(code) is None:
         access_token_data = {
             "appid": APPID,
@@ -20,8 +20,12 @@ def index(request):
             "code": code,
             "grant_type": "authorization_code"
         }
+
+        # 拿到 code请求去拿 access_token
         url = "https://api.weixin.qq.com/sns/oauth2/access_token"
         params = json.loads(requests.get(url, params=access_token_data).content)
+
+        # 通过access_token和 openid 去拿用户信息
         url = "https://api.weixin.qq.com/sns/userinfo"
         data = {
             "access_token": params['access_token'],
@@ -29,6 +33,7 @@ def index(request):
             "lang": "zh_CN"
         }
         paramss = json.loads(requests.get(url, params=data).content)
+
         data = {
             'openid': paramss['openid'],
             'nickname': paramss['nickname'],
