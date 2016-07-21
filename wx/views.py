@@ -1,13 +1,13 @@
 # encoding=utf-8
-from django.shortcuts import render, HttpResponse
-from django.core.cache import cache
-import requests
 import json
+import requests
+from django.core.cache import cache
+from django.shortcuts import render, HttpResponse
 
 
 APPID = "wx2e4b3f5d864ec373"
 SECRET = "34420c2496cbb60d75e02e1ef1bb8183"
-SEX = {1:u'男', 2:u'女'}
+SEX = {1: u'男', 2: u'女'}
 LANGUAGE = {'zh_CN': u'汉语'}
 
 
