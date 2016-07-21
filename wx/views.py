@@ -1,5 +1,5 @@
 # encoding=utf-8
-from django.shortcuts import render,HttpResponse
+from django.shortcuts import render, HttpResponse
 from models import WechatUserInfo
 import requests
 import json
@@ -40,6 +40,7 @@ def index(request):
             'headimgurl': paramss['headimgurl']
         }
         cache.set(code, data, 60)
+        return HttpResponse("OK")
     else:
         data = cache.get(code)
     return render(request, 'index.html', data)
