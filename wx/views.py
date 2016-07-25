@@ -32,17 +32,17 @@ def index(request):
             "openid": params['openid'],
             "lang": "zh_CN"
         }
-        paramss = json.loads(requests.get(url, params=data).content)
+        params = json.loads(requests.get(url, params=data).content)
 
         data = {
-            'openid': paramss['openid'],
-            'nickname': paramss['nickname'],
-            'sex': SEX[paramss['sex']],
-            'language': LANGUAGE[paramss['language']],
-            'city': paramss['city'],
-            'province': paramss['province'],
-            'country': paramss['country'],
-            'headimgurl': paramss['headimgurl']
+            'openid': params['openid'],
+            'nickname': params['nickname'],
+            'sex': SEX[params['sex']],
+            'language': LANGUAGE[params['language']],
+            'city': params['city'],
+            'province': params['province'],
+            'country': params['country'],
+            'headimgurl': params['headimgurl']
         }
         cache.set(code, data, 60)
         return HttpResponse("OK")
